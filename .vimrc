@@ -48,5 +48,11 @@ filetype plugin indent on     " required!
 
 colorscheme desert 
 set number
+set showcmd " 显示命令
 
 
+
+
+"for qhbi
+"将文件全并成一行，并将多余空格合并,不存在匹配模式时不报错
+:map <F3>  <Esc>:%s/$\n/ /ge <CR> :%s/\s\{2,\}/ /ge <CR> A
