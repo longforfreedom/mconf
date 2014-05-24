@@ -2,9 +2,9 @@
 ---------------------------------------------------
 
 * 用以下命令检出  
-		cd ~/
-		git init
-		git pull git@github.com:longforfreedom/dotfile.git
+		cd ~/   
+		git init   
+		git pull git@github.com:longforfreedom/dotfile.git   
         
 
 *  VIM 
