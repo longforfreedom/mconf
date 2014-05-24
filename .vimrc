@@ -48,7 +48,13 @@ filetype plugin indent on     " required!
 
 colorscheme desert 
 set number
+set tabstop=4 "tab用4个空格代替
+set expandtab
+set shiftwidth=4
+set autoindent 
+
 set showcmd " 显示命令
+
 
 
 
