@@ -1,5 +1,6 @@
 set nocompatible              " be iMproved
 filetype off                  " required!
+syntax enable
 """""""""
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -12,7 +13,7 @@ call vundle#rc()
 " "
 " " original repos on GitHub
 " Bundle 'tpope/vim-fugitive'
-" Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Bundle 'tpope/vim-rails.git'
 " " vim-scripts repos
@@ -20,13 +21,13 @@ call vundle#rc()
 " Bundle 'FuzzyFinder'
 "
 " " for markdown
- Bundle 'Markdown'
+Bundle 'Markdown'
 " "自动识别文件编码；
  Bundle 'FencView.vim'
 " "original repos on GitHub
-" "Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 "
-" Bundle 'altercation/vim-colors-solarized' 
+Bundle 'altercation/vim-colors-solarized' 
 "
 " " non-GitHub repos
 " "Bundle 'git://git.wincent.com/command-t.git'
@@ -46,19 +47,25 @@ call vundle#rc()
 " " NOTE: comments after Bundle commands are not allowed.
 "
 "
-" colorscheme desert 
-" set number
-" set tabstop=4 "tab用4个空格代替
-" set expandtab
-" set shiftwidth=4
-" set autoindent 
+"colorscheme desert 
+set number
+set tabstop=4 "tab用4个空格代替
+set expandtab
+set shiftwidth=4
+set autoindent 
 "
-" set showcmd " 显示命令
-"
-"
+set showcmd " 显示命令
 "
 "
 "
+"
+"
+"set background=dark
+"colorscheme desert 
+set background=dark
+colorscheme solarized
+
+
 " "for qhbi
 " "将文件全并成一行，并将多余空格合并,不存在匹配模式时不报错
-" :map <F3>  <Esc>:%s/$\n/ /ge <CR> :%s/\s\{2,\}/ /ge <CR> A
+:map <F3>  <Esc>:%s/$\n/ /ge <CR> :%s/\s\{2,\}/ /ge <CR> A
