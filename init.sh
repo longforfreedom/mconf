@@ -9,3 +9,8 @@ git config --global push.default simple #而 Git 2.x 默认的是 simple，意�
 git config color.ui true #彩色的 git 输出
 git config format.pretty oneline
 git config -l #列举所有配置
+
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
