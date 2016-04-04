@@ -57,9 +57,6 @@ set autoindent
 set showcmd " 显示命令
 "
 "
-"
-"
-"
 "set background=dark
 "colorscheme desert 
 set background=dark
