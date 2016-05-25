@@ -42,17 +42,17 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 "python{
-    Bundle 'klen/python-mode'
-    Bundle 'yssource/python.vim'
-    Bundle 'python_match.vim'
-    Bundle 'pythoncomplete'
+    "Bundle 'klen/python-mode'
+    "Bundle 'yssource/python.vim'
+    "Bundle 'python_match.vim'
+    "Bundle 'pythoncomplete'
 "}
 
 "misc{
     Bundle 'Markdown'
     "自动识别文件编码；
     Bundle 'FencView.vim'
-    Bundle 'Valloric/YouCompleteMe'
+    "Bundle 'Valloric/YouCompleteMe'
 "}
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "ui{
