@@ -8,6 +8,7 @@ syntax enable
 set nu " 显示行号
 set tabstop=4 "tab用4个空格代替
 set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent 
 set background=dark
